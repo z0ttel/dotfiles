@@ -1,2 +1,2 @@
 # Dotfiles
-My Personal dotfiles for oh-my-zsh and nano
+My Personal dotfiles for oh-my-zsh and nano.
