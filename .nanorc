@@ -1,0 +1,33 @@
+# This is my nanorc file
+# Author: Victor Trost <trost.victor@gmail.com>
+
+# General
+set autoindent
+set brackets ""')>]}"
+set matchbrackets "(<[{)>]}"
+set noconvert
+set nonewlines
+set punct "!.?"
+set quotestr "^([ 	]*([!#%:;>|}]|//))+"
+set regexp
+set tabsize 4
+set tabstospaces
+set whitespace "»·"
+set wordchars "<_>."
+
+# Visual
+set linenumbers
+set nohelp
+
+# Colors
+ set titlecolor black,cyan
+ set statuscolor lightyellow
+ set errorcolor red
+ set selectedcolor black,white
+ set stripecolor ,yellow
+ set numbercolor cyan
+ set keycolor cyan
+ set functioncolor green
+
+# Include all possible syntax
+include "/usr/share/nano/*.nanorc"
